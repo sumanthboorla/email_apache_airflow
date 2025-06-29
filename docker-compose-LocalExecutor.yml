@@ -21,9 +21,9 @@ services:
               - EXECUTOR=Local
               - AIRFLOW__EMAIL__SMTP_HOST=smtp.gmail.com
               - AIRFLOW__EMAIL__SMTP_PORT=587
-              - AIRFLOW__EMAIL__SMTP_USER=sumanthb.freelance@gmail.com
-              - AIRFLOW__EMAIL__SMTP_PASSWORD=yehlkabrdbolaryw
-              - AIRFLOW__EMAIL__SMTP_MAIL_FROM=sumanthb.freelance@gmail.com
+              - AIRFLOW__EMAIL__SMTP_USER=usermail
+              - AIRFLOW__EMAIL__SMTP_PASSWORD=###########
+              - AIRFLOW__EMAIL__SMTP_MAIL_FROM=usermail
 
               - AIRFLOW__EMAIL__SMTP_STARTSTLS=True
               - AIRFLOW__EMAIL__SMTP_SSL=False
